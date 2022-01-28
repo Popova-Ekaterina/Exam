@@ -1,0 +1,23 @@
+body {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+}
+.Contacts {
+    margin-left: 145px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aquamarine;
+}
+.number {
+    margin-right: 16px;
+}
