@@ -89,16 +89,16 @@ body {
 }
 .Free {
  
-    width: 416px;
+  
     text-align: center;
     color: #000000;
     font-size: 39px;
     line-height: 48px;
     padding: auto;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 416px;
-    height: 96px
+    height: 100px;
 }
 .button {
     color: white;
@@ -106,9 +106,35 @@ body {
     font-size: 14px;
     line-height: 24px;
     background-color:#a6ca21;
-    padding: 10px;
-    border-radius: 20%;
+    padding: 8px 18px;
+    border-radius: 30px;
     text-align: center;
     margin-bottom: 90px;
     border-color: #a6ca21;
+}
+.Cart {
+    line-height: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    padding: 6px;
+    margin-left: 560px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.cart_img {
+    align-items: flex-end;
+    justify-content: space-between;
+    line-height: 32px;
+    flex-wrap: wrap;
+    list-style-type:none;
+    padding: 7px;
+}
+.cart_img1 {
+    align-items: flex-end;
+    justify-content: space-between;
+    line-height: 32px;
+    flex-wrap: wrap;
+    list-style-type:none;
+    padding: 9px;
 }
