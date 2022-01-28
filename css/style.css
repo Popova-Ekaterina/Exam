@@ -7,8 +7,9 @@ body {
     color: black;
 }
 .Contacts {
-    margin-left: 145px;
-    font-family: Open Sans;
+    
+    box-sizing: border-box;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -16,8 +17,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #a6ca21;
+    color: white;
 }
 .number {
+
+    margin-left: 145px;
     margin-right: 16px;
 }
